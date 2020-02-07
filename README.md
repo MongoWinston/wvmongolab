@@ -24,11 +24,11 @@ Note: This app does not display proper connection handling for a NodeJS/MongoDB 
 - To whitelist IP address, select the `Network Access` option in the left context menu. At the top right there will be an `ADD IP ADDRESS` button. Click that and either whitelist your current IP or 0.0.0.0/0
 ![](screenshots/wvml_ipwhitelist.png)
 - Once an Atlas cluster is provisioned, load sample data as shown:
-![](screenshots/wvml_loadsampledata.png)
+![](screenshots/wvml_loadsamppledata.png)
 - In the Atlas console, click on the `Connnect` button, and select the `Connect Your Application` option. Make sure you have `Node.js`, version `3.0 or later` as your driver version, and click on the `Copy` button for `Connection String Only`
-![](screenshots/wvml_connectionstring.png)
+![](screenshots/wmvl_connectionstring.png)
 - Edit .env file in the root of the node project with that Atlas generated connection string, as well as the username and password of the user you created in the Atlas UI.
-![](screenshots/wvml_dotenv.png)
+![](screenshots/wmvl_dotenv.png)
 
 ## Run App
 - Go to the root folder in the terminal and type `npm run start`
