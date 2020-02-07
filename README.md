@@ -6,10 +6,15 @@ Note: This app does not display proper connection handling for a NodeJS/MongoDB 
 ## Requirements
 - nodejs
 - npm
+- git
 
 ## Installation 
-- clone this repo
-- npm install
+
+- clone this repo using the following command:
+`git clone https://github.com/MongoWinston/wvmongolab.git`
+
+- `npm install`
+
 
 ## Running The App
 - edit .env file with your Atlas generated username, password, and connection string
