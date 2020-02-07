@@ -10,10 +10,10 @@ Note: This app does not display proper connection handling for a NodeJS/MongoDB 
 
 ## Installation 
 
-- clone this repo using the following command:
+- Clone this repo using the following command:
 `git clone https://github.com/MongoWinston/wvmongolab.git`
 
-- `npm install`
+- In the project directory, run `npm install`
 
 
 ## Running The App
