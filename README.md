@@ -12,13 +12,16 @@ Note: This app does not display proper connection handling for a NodeJS/MongoDB 
 ## Installation 
 - Clone this repo using the following command:
 `git clone https://github.com/MongoWinston/wvmongolab.git`
-
 - In the project directory, run `npm install`
 
 
 ## Set Up App
 - If you have not done this, create an Atlas cluster (for free) at cloud.mongodb.com. An M0 free tier cluster is fine for this small app. This does not require a credit card.
-- Make sure the Atlas cluster has an associated username/password and ip whitelist (doesn't have to be 0.0.0.0/0 but that is easiest)
+- Make sure the Atlas cluster has an associated username/password and ip whitelist (doesn't have to be 0.0.0.0/0 but that is easiest). These options can be found in the context menu on the left of the Atlas UI under `Database Access` and `Network Access`.
+
+- To create a user, select the `Database Access` option in the left context menu and at the top right of that page will be a `NEW USER` button. Select that create a new user with the proper level of access. "Read and write to any database" is easiest. REMEMBER YOUR PASSWORD!
+
+- To whitelist IP address, select the `Network Access` option in the left context menu. At the top right there will be an `ADD IP ADDRESS` button. Click that and either whitelist your current IP or 0.0.0.0/0
 
 - Once an Atlas cluster is provisioned, load sample data as shown:
 
